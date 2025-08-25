@@ -44,19 +44,19 @@
 
         right_layer {
             bindings = <
-&kp INS     &kp N1  &kp N2  &kp N3  &kp RG(C)    &kp HOME      &kp PG_DN       &kp UP_ARROW    &kp END          &kp COLON
-&kp DEL     &kp N4  &kp N5  &kp N6  &kp RG(V)    &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SEMI
-&caps_word  &kp N7  &kp N8  &kp N9  &kp N0       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &trans           &to 0
-                            &trans  &kp ESC      &trans        &trans
+&kp INS  &kp N1  &kp N2  &kp N3        &kp RG(C)    &kp HOME      &kp PG_DN       &kp UP_ARROW    &kp END          &kp COLON
+&kp DEL  &kp N4  &kp N5  &kp N6        &kp RG(V)    &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SEMI
+&kp TAB  &kp N7  &kp N8  &kp N9        &kp N0       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &trans           &to 0
+                         &kp LEFT_GUI  &kp ESC      &trans        &trans
             >;
         };
 
         left_layer {
             bindings = <
-&studio_unlock  &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
-&kp EXCL        &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&trans          &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &to 0
-                                    &trans    &trans       &trans     &trans
+&kp ESC   &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
+&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
+&trans    &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &to 0
+                              &trans    &trans       &trans     &trans
             >;
         };
 
