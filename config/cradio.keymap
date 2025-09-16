@@ -55,7 +55,7 @@
             bindings = <
 &kp ESC   &kp LBKT  &kp LBRC  &kp RBRC  &trans       &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT  &kp TILDE
 &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&trans    &trans    &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &to 0
+&to 0     &to 4     &trans    &trans    &trans       &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE  &to 0
                               &trans    &trans       &trans     &trans
             >;
         };
@@ -66,6 +66,15 @@
 &bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
 &trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
                              &trans      &trans          &trans  &trans
+            >;
+        };
+
+        graphite {
+            bindings = <
+&kp B             &kp L  &kp D  &kp W      &kp Z                 &kp MINUS        &kp F       &kp O      &kp U    &kp J
+&kp N             &kp R  &kp T  &kp S      &kp G                 &kp Y            &kp H       &kp A      &kp E    &kp I
+&ht LEFT_SHIFT Q  &kp X  &kp M  &kp C      &kp V                 &kp K            &kp P       &kp COMMA  &kp DOT  &ht RIGHT_SHIFT FSLH
+                                &lt 2 TAB  &ht LEFT_GUI ENTER    &ht RCTRL SPACE  &lt 1 BSPC
             >;
         };
     };
